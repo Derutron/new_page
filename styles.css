@@ -3,23 +3,23 @@ ul {
     display: flex;    /* Use flexbox to make items display horizontally */
   }
   
-  /* Optional: Add spacing between list items */
-  li {
-    margin-right: 20px;
-  }
-  
-  /* Remove margin from the last list item */
-  li:last-child {
-    margin-right: 0;
+/* Optional: Add spacing between list items */
+li {
+  margin-right: 20px;
   }
 
-  .first {
-    border: 1px solid #000000;
-    padding: 20px;
-    width: 1000px;
-    margin: 0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-  }
+/* Remove margin from the last list item */
+li:last-child {
+  margin-right: 0;
+}
+
+.first {
+  border: 1px solid #000000;
+  padding: 20px;
+  width: 1000px;
+  margin: 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
 
   .contact {
     position: absolute;
@@ -29,4 +29,99 @@ ul {
     padding: 5px;
   }
   
-  
+
+  /* My Gallary */
+
+
+.outer-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5px;
+  border: 1px solid rgb(247, 6, 6);
+  width: 900px;
+}
+
+.inner-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  grid-gap: 4px;
+}
+
+.item {
+    background-color: #eff3f5;
+    color: rgb(146, 41, 41);
+    padding: 3px;
+    display: flex;
+    justify-content: left;
+    align-items: center; 
+    border: 1px solid rgb(248, 7, 7);
+    margin-bottom: 4px;
+}
+
+.item.one{
+  width: 100px;
+  height: 50px;
+}
+
+
+.item.two,
+.item.three,
+.item.four
+{
+  width: 250px;
+}
+
+.item.six,
+.item.eight,
+.item.ten
+{
+  height: 10px;
+}
+
+
+.item.seven,
+.item.nine,
+.item.eleven
+{
+  height: 50px;
+}
+
+
+.item.thirteen,
+.item.fifteen,
+.item.seventeen
+{
+  height: 10px;
+}
+
+
+.item.fourteen,
+.item.sixteen,
+.item.eighteen
+{
+  height: 50px;
+}
+
+.item.two img,
+.item.three img,
+.item.four img
+{
+  height: 50px;
+  width: 100px;
+}
+
+.item.seven img,
+.item.nine img,
+.item.eleven img
+{
+  height: 50px;
+  width: 250px;
+}
+
+.item.fourteen img,
+.item.sixteen img,
+.item.eighteen img
+{
+  height: 50px;
+  width: 100px;
+}
