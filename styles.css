@@ -1,0 +1,32 @@
+ul {
+    list-style: none; /* Remove default list bullet points */
+    display: flex;    /* Use flexbox to make items display horizontally */
+  }
+  
+  /* Optional: Add spacing between list items */
+  li {
+    margin-right: 20px;
+  }
+  
+  /* Remove margin from the last list item */
+  li:last-child {
+    margin-right: 0;
+  }
+
+  .first {
+    border: 1px solid #000000;
+    padding: 20px;
+    width: 1000px;
+    margin: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .contact {
+    position: absolute;
+    left: 20px;
+    top: 100px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px;
+  }
+  
+  
